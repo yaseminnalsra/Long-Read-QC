@@ -20,7 +20,7 @@ A Nextflow pipeline for quality control of Oxford Nanopore long-read sequencing 
 ---
 
 ## Directory Structure
-'''
+```
 longread_QC/
 ├── raw/
 │   ├── ***.fastq   
@@ -33,7 +33,7 @@ longread_QC/
 ├── nextflow.config          # Configuration 
 ├── samplesheet.csv          # Input sample list
 └── Dockerfile
-'''
+```
 
 ---
 
