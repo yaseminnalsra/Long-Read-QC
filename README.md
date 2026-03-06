@@ -38,16 +38,17 @@ longread_QC/
 ---
 
 ## Sample Sheet Example (csv)
-
+```
 sample,fastq
 SAMPLE1_SE,/your/path/sample1.fastq
 SAMPLE2_SE,/your/path/sample2.fastq
-
+```
 ## If your sample are pair-end
+```
 sample,fastq_1,fastq_2
 SAMPLE1_PE,/your/path/sample1_1.fastq,/your/path/sample1_2.fastq
 SAMPLE2_PE,/your/path/sample2_1.fastq,/your/path/sample2_2.fastq
-
+```
 ---
 ## Usage
 1. Run with Docker
@@ -71,10 +72,8 @@ All outputs will be collected in the results/ folder:
 ## Example Output
 
 ### Read Length Distribution
-![Read Length](results/SAMPLE1_SE_stats_plots/read_length_distribution.png)
-
+![Read Length](results/SAMPLE1_SE_plots/SAMPLE1_SE_read_length.png)
 ### Quality Distribution
-![Quality](results/SAMPLE1_SE_stats_plots/quality_distribution.png)
-
+![Quality](results/SAMPLE1_SE_plots/SAMPLE1_SE_mean_quality.png)
 ### GC Content Distribution
-![GC](results/SAMPLE1_SE_stats_plots/gc_distribution.png)
+![GC Content](results/SAMPLE1_SE_plots/SAMPLE1_SE_gc_content.png)
