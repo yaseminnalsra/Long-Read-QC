@@ -1,0 +1,4 @@
+sample,metrik,n,ortalama,medyan,std,min,max,Q25,Q75,N50_bp
+SAMPLE1_SE,GC İçeriği (%),81011,53.0,53.53,7.095,14.97,73.396,48.601,57.792,
+SAMPLE1_SE,Read Uzunluğu (bp),81011,1038.235,547.0,2995.917,86.0,686155.0,321.0,1064.0,1761.0
+SAMPLE1_SE,Ortalama Kalite,81011,17.896,17.312,8.27,2.75,38.84,10.574,24.821,
