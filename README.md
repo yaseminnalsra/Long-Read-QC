@@ -53,13 +53,13 @@ SAMPLE2_PE,/your/path/sample2_1.fastq,/your/path/sample2_2.fastq
 1. Run with Docker
 
 Build the Docker image:
-
+```
 docker build -t longread_qc:latest .
-
+```
 Run the pipeline:
-
+```
 nextflow run main.nf -with-docker
-
+```
 All outputs will be collected in the results/ folder:
 
 *_nanoplot/ → NanoPlot QC reports
