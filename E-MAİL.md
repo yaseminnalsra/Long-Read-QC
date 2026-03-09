@@ -1,17 +1,21 @@
-Dear Prof. Dr. KILIÇ,
+Dear Professor KILIÇ,
 
-I performed the quality control analysis of the data from the sample you sent using the Nanoplot tool. As a result of this analysis, you can access visualisations of basic quality metrics such as the read length distribution, Phread quality score distribution, and GC content distribution for your data. 
+I have completed the quality control analysis of the sequencing data you provided using NanoPlot. Below is a summary of the key findings, along with visualisations of the main quality metrics: read length distribution, Phred quality score distribution, and GC content distribution.
 
 Findings
 
-A total of 81,001 reads were analysed, with a median read length of 547 bp, an average of 1,038 bp, and an N50 value of 1,761 bp. The distribution is markedly right-skewed, indicating the presence of a large number of short reads; this is likely due to DNA fragmentation during library preparation. However, ultra-long reads reaching 686,155 bp were also detected.
-Quality Score: The median Phred score was determined to be Q17.3, with an average of Q17.9; this value corresponds to approximately 98% base call accuracy. Two distinct peaks (around Q7-10 and Q20-25) were observed in the distribution. This bimodal structure can be explained by the coexistence of simplex and duplex reads.
-GC Content: The average GC content was 53%, and the distribution exhibited a normal curve. No anomalies indicative of contamination or systematic bias were detected. 
+A total of 81,011 reads were analysed. The median read length was 547 bp, the mean was 1,038 bp, and the N50 value was 1,761 bp. The distribution is markedly right-skewed, suggesting a substantial proportion of short reads — most likely a result of DNA fragmentation during library preparation. Notably, ultra-long reads of up to 686,155 bp were also detected, which is a strength of the long-read sequencing platform used.
+
+Regarding read quality, the median Phred score was Q17.3 and the mean was Q17.9, corresponding to approximately 98% base-calling accuracy. The quality score distribution showed two distinct peaks (around Q7–10 and Q20–25), which is consistent with the coexistence of simplex and duplex reads — a common characteristic of this sequencing technology.
+
+The mean GC content was 53%, and the distribution followed a normal curve. No anomalies suggesting contamination or systematic bias were detected.
 
 Recommendation
 
-The overall quality of the data is considered to be sufficient. Before proceeding to the alignment stage, it is recommended to filter out low-quality reads (Q < 10) and very short reads (< 200 bp). Alignment can be performed after these filters have been applied. I await your approval for the next step.
+The overall data quality is considered sufficient to proceed with downstream analysis. Prior to alignment, I recommend filtering out low-quality reads (Q < 10) and very short reads (< 200 bp) to improve mapping accuracy. Once these filters are applied, alignment to the reference genome can be carried out using a long-read-compatible tool such as minimap2.
 
+Please let me know if you would like to proceed to the alignment step or if you have any questions regarding these results.
 
-Best Regards,
-Yasemin
+Best regards,
+
+Yasemin ARSLAN
