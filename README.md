@@ -23,7 +23,6 @@ A Nextflow pipeline for quality control of Oxford Nanopore long-read sequencing 
 ```
 longread_QC/
 ├── raw/
-│   ├── ***.fastq   
 │   └── ***.fastq           
 ├── scripts/
 │   ├── read_stats.py        # Per-read statistics calculation
