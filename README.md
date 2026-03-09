@@ -50,7 +50,6 @@ SAMPLE2_PE,/your/path/sample2_1.fastq,/your/path/sample2_2.fastq
 ```
 ---
 ## Usage
-1. Run with Docker
 
 Build the Docker image:
 ```
